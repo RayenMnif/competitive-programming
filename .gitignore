@@ -1,0 +1,15 @@
+# ---- compiled binaries ----
+# you compile every solution as `test`, often inside the problem's folder
+# (practice/800-1100/test), so keep this unanchored to match any depth
+test
+a.out
+*.exe
+*.o
+
+# ---- editor / OS junk ----
+.DS_Store
+*.swp
+*~
+
+# NOTE: deliberately NOT ignoring *.in / *.out
+# in competitive programming those are usually sample tests you want to keep.
